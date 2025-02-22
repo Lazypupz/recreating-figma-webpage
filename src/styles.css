@@ -35,7 +35,7 @@ body{
 
 .links{
     text-align: right;
-    margin-top: 30px;
+    margin-top: 21.24px;
     margin-right: 50px;
 }   
 
@@ -93,20 +93,41 @@ body{
 /*Navigational Bar Smoke Shi */
 
 .nav{
-    padding-top: 50px;
+    padding-top: 15px;
     color:#4D4D4D;
     font-size: 19px;
 }
 
 #abt-words{
-    text-align: center;
-
+    text-align: right;
+    display:flex;
+    padding-top: 0px;
+    margin-top: 0px;
 }
+
 
 #abt-words li{
     text-decoration: none;
     font-style: italic;
+    display: inline-flex;
+    padding-right: 50px;
+    font-size: larger;
+
 }
 #Jav{
     /*olive delights*/
+}
+
+/* Grid Boxes */
+.grid-box{
+    color:black;
+    border-style: solid;
+    border-color: azure;
+    border-radius: 500px;
+
+}
+
+.grid-box h4{
+    display: inline;
+    padding-top: 20px;
 }
